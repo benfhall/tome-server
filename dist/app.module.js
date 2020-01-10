@@ -8,6 +8,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 Object.defineProperty(exports, "__esModule", { value: true });
 const common_1 = require("@nestjs/common");
 const users_module_1 = require("./users/users.module");
+const providers_module_1 = require("./providers/providers.module");
 const config_module_1 = require("./config/config.module");
 const mongoose_1 = require("@nestjs/mongoose");
 const config_service_1 = require("./config/config.service");
@@ -20,6 +21,7 @@ AppModule = __decorate([
     common_1.Module({
         imports: [
             users_module_1.UsersModule,
+            providers_module_1.ProvidersModule,
             config_module_1.ConfigModule,
             neconfig_1.NeconfigModule.register({
                 readers: [

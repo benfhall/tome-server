@@ -1,5 +1,6 @@
 import { Module } from '@nestjs/common';
 import { UsersModule } from './users/users.module';
+import { ProvidersModule } from './providers/providers.module';
 import { ConfigModule } from './config/config.module';
 import { MongooseModule } from '@nestjs/mongoose';
 import { ConfigService } from './config/config.service';
@@ -10,6 +11,7 @@ import { NeconfigModule } from 'neconfig';
 @Module({
   imports: [
     UsersModule,
+    ProvidersModule,
     ConfigModule,
     NeconfigModule.register({
       readers: [

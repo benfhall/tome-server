@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const mongoose = require("mongoose");
 const bcrypt = require("bcryptjs");
 const gravatar = require("gravatar");
-exports.UserSchema = new mongoose.Schema({
+exports.ProviderSchema = new mongoose.Schema({
     first_name: String,
     last_name: String,
     email: {
@@ -21,30 +21,30 @@ exports.UserSchema = new mongoose.Schema({
 }, {
     timestamps: true
 });
-exports.UserSchema.pre('save', function (next) {
-    let user = this;
-    if (!user.avatar) {
-        user.avatar = gravatar.url(user.email, { protocol: 'https' });
+exports.ProviderSchema.pre('save', function (next) {
+    let provider = this;
+    if (!provider.avatar) {
+        provider.avatar = gravatar.url(provider.email, { protocol: 'https' });
     }
-    if (!user.isModified('password'))
+    if (!provider.isModified('password'))
         return next();
     bcrypt.genSalt(10, (err, salt) => {
         if (err)
             return next(err);
-        bcrypt.hash(user.password, salt, (err, hash) => {
+        bcrypt.hash(provider.password, salt, (err, hash) => {
             if (err)
                 return next(err);
-            user.password = hash;
+            provider.password = hash;
             next();
         });
     });
 });
-exports.UserSchema.methods.checkPassword = function (attempt, callback) {
-    let user = this;
-    bcrypt.compare(attempt, user.password, (err, isMatch) => {
+exports.ProviderSchema.methods.checkPassword = function (attempt, callback) {
+    let provider = this;
+    bcrypt.compare(attempt, provider.password, (err, isMatch) => {
         if (err)
             return callback(err);
         callback(null, isMatch);
     });
 };
-//# sourceMappingURL=user.schema.js.map
+//# sourceMappingURL=provider.schema.js.map
