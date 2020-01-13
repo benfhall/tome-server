@@ -16,8 +16,8 @@ export class ProvidersService {
 
   // READ provider
   async getProvider(providerID): Promise<Provider> {
-    const adminCus = await this.providerModel.findById(providerID).exec();
-    return adminCus;
+    const customer = await this.providerModel.findById(providerID).exec();
+    return customer;
   }
 
   // UPDATE provider details
@@ -36,8 +36,8 @@ export class ProvidersService {
 
   // GET ALL providers
   async getAllProvider(): Promise<Provider[]> {
-    const adminCuss = await this.providerModel.find().exec();
-    return adminCuss;
+    const customers = await this.providerModel.find().exec();
+    return customers;
   }
 
   // For JWT checking

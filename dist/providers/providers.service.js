@@ -24,8 +24,8 @@ let ProvidersService = class ProvidersService {
         return newProvider.save();
     }
     async getProvider(providerID) {
-        const adminCus = await this.providerModel.findById(providerID).exec();
-        return adminCus;
+        const customer = await this.providerModel.findById(providerID).exec();
+        return customer;
     }
     async updateProvider(providerID, data) {
         const updatedProvider = await this.providerModel.findByIdAndUpdate(providerID, data, {
@@ -38,8 +38,8 @@ let ProvidersService = class ProvidersService {
         return deletedProvider;
     }
     async getAllProvider() {
-        const adminCuss = await this.providerModel.find().exec();
-        return adminCuss;
+        const customers = await this.providerModel.find().exec();
+        return customers;
     }
     async findOneByEmail(email) {
         return await this.providerModel.findOne({ email: email }, '+password');
