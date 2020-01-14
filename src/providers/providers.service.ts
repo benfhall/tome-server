@@ -40,9 +40,4 @@ export class ProvidersService {
     return customers;
   }
 
-  // For JWT checking
-  async findOneByEmail(email: string): Promise<Provider> {
-    return await this.providerModel.findOne({ email: email }, '+password');
-  }
-
 }

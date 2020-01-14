@@ -9,5 +9,4 @@ export declare class ProvidersService {
     updateProvider(providerID: any, data: any): Promise<Provider>;
     deleteProvider(providerID: any): Promise<any>;
     getAllProvider(): Promise<Provider[]>;
-    findOneByEmail(email: string): Promise<Provider>;
 }

@@ -6,5 +6,8 @@ exports.ProviderSchema = new mongoose.Schema({
         type: String,
         required: true
     },
+    address: {
+        type: String
+    }
 });
 //# sourceMappingURL=provider.schema.js.map

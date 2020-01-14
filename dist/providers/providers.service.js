@@ -41,9 +41,6 @@ let ProvidersService = class ProvidersService {
         const customers = await this.providerModel.find().exec();
         return customers;
     }
-    async findOneByEmail(email) {
-        return await this.providerModel.findOne({ email: email }, '+password');
-    }
 };
 ProvidersService = __decorate([
     common_1.Injectable(),
