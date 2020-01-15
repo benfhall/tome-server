@@ -1146,15 +1146,15 @@
         "signature": "8f1241f5d9f0d3d72117768b3c974e462840fbd85026fb66685078945404cf2f"
       },
       "../src/users/interfaces/user.interface.ts": {
-        "version": "9a5b7c2a0dc9c13d2acbe407284e5460be810fd01d8bbc0ca1c9eeace5002375",
-        "signature": "2aef87434dc71d7af9576e6626fc06ddcf1d8fc16e0d072bce0fb57b5cdaa12c"
+        "version": "53b2c5b1fa1a02bc41ec1842c3c093a714bbe9fc4a7db48a66452fa89eb47326",
+        "signature": "d4d69168db365b907135c965a23c0cbd63a8828428bb0c013f7e8591b4c42667"
       },
       "../src/users/dto/user.dto.ts": {
-        "version": "28e8bf4a50e080f850af5237a23fd3e3cf56f2fa4efe753e62bf72470050d19c",
+        "version": "693a2c79d1373b125118f221f20ca34dab57a866dfe4c07247deba76aede8497",
         "signature": "6021a1ac92d19a544f3f68d23aff7ca06ee8e8963753a6b49393fe5c9f5c5ff0"
       },
       "../src/users/users.service.ts": {
-        "version": "ca947f8660fb962f625d926359ae5683d5175c8e1769093c156db67c09efc9b6",
+        "version": "f673f53d6efccb57543300d6f218daa6b56a4673fe8f8e5582c2af637bf9d12a",
         "signature": "2f0e58930d6a963796af006554cdd3b8b6dbda0283f01e156925e4e603282dd6"
       },
       "../node_modules/@nestjs/passport/dist/abstract.strategy.d.ts": {
@@ -1198,15 +1198,15 @@
         "signature": "a2b176f66f0b708241265fb3b417597c9c9d21912bbb7f5cc00d99af551c2078"
       },
       "../src/users/users.controller.ts": {
-        "version": "9ccf1553afaa099006230ce3dbd299e420fb536182cbafb319d3059ab6d17c20",
+        "version": "b87c5628ec237cf34d4624081a77c8a69a921fbd6548cbb2baae3d5b06a1975e",
         "signature": "a78d3451475e7cbb4d34fd91f736aed64ce3cb6353397b07a4c78838b4225592"
       },
       "../src/users/schemas/user.schema.ts": {
-        "version": "a03eaff7fc9884a09ac1a98f349ed9545e82dcfe39066f3c3878c16d8c06ec53",
+        "version": "5bb6e91586930c1cdee3ef96987216da29a0b28deac4e2ec3dbfc4fab1a55a08",
         "signature": "33b6d9f5900752b91a05e8ec298b94fec72ab453cbb20021183b577561396086"
       },
       "../src/users/users.module.ts": {
-        "version": "0dbff5eeacb3fa8bc918453d34bdb862482165fdba6362186406c4cfa566f6d3",
+        "version": "75ed39e34f010293c411eeedf119cdea209e19d95c7f25d9b0c132e4a15af139",
         "signature": "12dec6c99bd8d11167fa91a31e737abbbf8c9cc789c151a25a9a1d13f328175c"
       },
       "../src/providers/interfaces/provider.interface.ts": {
@@ -1238,11 +1238,11 @@
         "signature": "c9ae0b351a07b52f29a28e869d8c7c8d29743bbb5eeddc7c0b5b2a69a2450528"
       },
       "../src/config/config.service.ts": {
-        "version": "62cf71f5655ec20b079b75a49f83d678ba9654827d7800480311ea842472dc85",
+        "version": "a9243c149f689a55a28491ba8b21b008922e72af1b0ca310dea5a4170bd7fce5",
         "signature": "c94a098d1fc8c64642a18eca445a0762ac16fe323d507e1b779420024e1a92ea"
       },
       "../src/config/config.module.ts": {
-        "version": "c4c3cc6a5755a783da592fed5853123ea0cbbc9b37868e41363181864b5eca96",
+        "version": "2f952fa8f8a555e92ea1e84c1376cd980a83eded3b24d518b2180b0abdecd004",
         "signature": "ffade0409a282999ad0e1c1fecd4c0010a2aff097bdcc44ec192014ba167e447"
       },
       "../node_modules/@types/jsonwebtoken/index.d.ts": {
@@ -1274,19 +1274,19 @@
         "signature": "a2b176f66f0b708241265fb3b417597c9c9d21912bbb7f5cc00d99af551c2078"
       },
       "../src/users/dto/login-user.dto.ts": {
-        "version": "f9299bca39fd5ac643691542dda76ebe6b011ce84dc03b360f2db1b16a6668bb",
+        "version": "48871f2587b523607c2d273680b460a7802e16ad37c965b517a9640c72dd4857",
         "signature": "c41d9e4c741e30891cf3ed69431f3957c7c53bf6a580b784e1778c8c2a652afd"
       },
       "../src/auth/interfaces/jwt-payload.interface.ts": {
-        "version": "a57dc3e32a0bae4f5a0bd95226d0a3f21d98910a76df34fd92063d4819803bb3",
+        "version": "00ac5108ad519cce4e8cc6047641fbc44cae75e3e1ea8ee165a4caf6268efe30",
         "signature": "6981929143c01ae297cfeca9fc60063878a804494850ed7892288b465e2e7c01"
       },
       "../src/auth/auth.service.ts": {
-        "version": "87b52242d4d1fd5f49ac4ae7b9a472adac9fce2e9f6590c59526459b73c05eff",
+        "version": "a546bef547c5031ba4fc2db9c2b6696a2c77cdc68b19b0e53337860347731cb4",
         "signature": "6c46989cf2156158709d2523fc8eaed759a7bbcf03b5504fa5bf502f9f6cbf95"
       },
       "../src/auth/auth.controller.ts": {
-        "version": "9554d2054d942849780a39018da0e8b20ab9dfd6eb373fc234ac684bc0ce714e",
+        "version": "347819e6c38b648728ff104e0e6ee9a5bc451b1f5ea7d6172306a6912d6915ed",
         "signature": "484a8a4bedefc2bd008ad55b576735255988dcb203e6ef28d807389abb29d93c"
       },
       "../node_modules/@types/range-parser/index.d.ts": {
@@ -1330,11 +1330,11 @@
         "signature": "d306be26f96b4bd9b279cd7da9d1355d5ce4060a2bb254489c1b95c87057eb38"
       },
       "../src/auth/strategies/jwt.strategy.ts": {
-        "version": "9b7ffcfe6b49fc35df68ea914e949239b84d2adcf6193f99af38825bed00e5e3",
+        "version": "79b88f46ac04b091ec737684f46ab26e2d7c0b0dd3842b9f82790a301a7ee957",
         "signature": "4918cb9dde3b3b008a7be8dfd9da8fae3c87758ad70ac134b81b94329f95a441"
       },
       "../src/auth/auth.module.ts": {
-        "version": "7d0440c3ff75342a9b429bdbe0a051c734fa0b506ac3e41cbd57b486b92f12a1",
+        "version": "74c1406883b0e36d39f2ea38ff16a94999c931ac3c10ea09de36e51be593523e",
         "signature": "2e5d258cf85349b02b015c3f1b8873c152d182c3819a7ccc3aff16fc3037a5fc"
       },
       "../node_modules/neconfig/dist/interfaces/hash-reader-options.interface.d.ts": {
@@ -1530,7 +1530,7 @@
         "signature": "6400917b161d3331bc82638ccc4aa149d755f501cfaba3d716fca1228c956171"
       },
       "../src/main.ts": {
-        "version": "cda17ce220285507e8fa39d493b2d3295ef70c1bb53ee56876d1a3ff6e5f89da",
+        "version": "1fb368b78dc088eabcbc4496893703abf3b6149920dc869b662282da35f924a6",
         "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6"
       },
       "../node_modules/@types/anymatch/index.d.ts": {
@@ -8369,9 +8369,7 @@
       "../node_modules/@nestjs/mongoose/dist/mongoose.module.d.ts",
       "../node_modules/@nestjs/mongoose/dist/index.d.ts",
       "../node_modules/@nestjs/mongoose/index.d.ts",
-      "../src/users/interfaces/user.interface.ts",
       "../src/users/dto/user.dto.ts",
-      "../src/users/users.service.ts",
       "../node_modules/@nestjs/passport/dist/abstract.strategy.d.ts",
       "../node_modules/@nestjs/passport/dist/interfaces/auth-module.options.d.ts",
       "../node_modules/@nestjs/passport/dist/interfaces/type.interface.d.ts",
@@ -8382,12 +8380,11 @@
       "../node_modules/@nestjs/passport/dist/passport/passport.strategy.d.ts",
       "../node_modules/@nestjs/passport/dist/index.d.ts",
       "../node_modules/@nestjs/passport/index.d.ts",
-      "../src/users/users.controller.ts",
       "../src/users/schemas/user.schema.ts",
-      "../src/users/users.module.ts",
       "../src/providers/interfaces/provider.interface.ts",
       "../src/providers/dto/provider.dto.ts",
       "../src/providers/providers.service.ts",
+      "../src/providers/providers.controller.ts",
       "../src/providers/schemas/provider.schema.ts",
       "../src/providers/providers.module.ts",
       "../node_modules/dotenv/types/index.d.ts",
@@ -8402,8 +8399,6 @@
       "../node_modules/@nestjs/jwt/index.d.ts",
       "../src/users/dto/login-user.dto.ts",
       "../src/auth/interfaces/jwt-payload.interface.ts",
-      "../src/auth/auth.service.ts",
-      "../src/auth/auth.controller.ts",
       "../node_modules/@types/range-parser/index.d.ts",
       "../node_modules/@types/express-serve-static-core/index.d.ts",
       "../node_modules/@types/mime/index.d.ts",
@@ -8414,8 +8409,6 @@
       "../node_modules/@types/passport/index.d.ts",
       "../node_modules/@types/passport-strategy/index.d.ts",
       "../node_modules/@types/passport-jwt/index.d.ts",
-      "../src/auth/strategies/jwt.strategy.ts",
-      "../src/auth/auth.module.ts",
       "../node_modules/neconfig/dist/interfaces/hash-reader-options.interface.d.ts",
       "../node_modules/neconfig/dist/interfaces/env-reader-options.interface.d.ts",
       "../node_modules/neconfig/dist/interfaces/neconfig-module-options.interface.d.ts",
@@ -8428,7 +8421,6 @@
       "../node_modules/neconfig/dist/readers/index.d.ts",
       "../node_modules/neconfig/dist/index.d.ts",
       "../node_modules/neconfig/index.d.ts",
-      "../src/app.module.ts",
       "../node_modules/@nestjs/core/adapters/http-adapter.d.ts",
       "../node_modules/@nestjs/core/adapters/index.d.ts",
       "../node_modules/@nestjs/core/injector/module-token-factory.d.ts",
@@ -8494,7 +8486,15 @@
       "../node_modules/@types/webpack/index.d.ts",
       "../node_modules/@types/yargs-parser/index.d.ts",
       "../node_modules/@types/yargs/index.d.ts",
-      "../src/providers/providers.controller.ts"
+      "../src/users/interfaces/user.interface.ts",
+      "../src/users/users.service.ts",
+      "../src/users/users.controller.ts",
+      "../src/users/users.module.ts",
+      "../src/auth/auth.service.ts",
+      "../src/auth/auth.controller.ts",
+      "../src/auth/strategies/jwt.strategy.ts",
+      "../src/auth/auth.module.ts",
+      "../src/app.module.ts"
     ]
   },
   "version": "3.7.4"

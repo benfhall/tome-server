@@ -5,5 +5,12 @@ export interface User extends Document {
     readonly password: string;
     readonly email: string;
     readonly avatar: string;
-    readonly bio: string;
+    readonly weight: string;
+    readonly weight_unit: string;
+    readonly age: string;
+    readonly birthday: string;
+    readonly address: string;
+    readonly zip: string;
+    readonly state: string;
+    readonly city: string;
 }

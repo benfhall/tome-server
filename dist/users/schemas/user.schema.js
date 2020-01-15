@@ -17,7 +17,14 @@ exports.UserSchema = new mongoose.Schema({
         select: false
     },
     avatar: String,
-    bio: String
+    weight: String,
+    weight_unit: String,
+    age: String,
+    birthday: String,
+    address: String,
+    zip: String,
+    state: String,
+    city: String,
 }, {
     timestamps: true
 });
