@@ -15,7 +15,7 @@ import { NeconfigModule } from 'neconfig';
     ConfigModule,
     NeconfigModule.register({
       readers: [
-        { name: 'env', file: path.resolve(process.cwd(), '.env') }
+        { name: 'env', file: path.resolve(process.cwd(), 'app.yaml') }
       ]
     }),
     MongooseModule.forRootAsync({

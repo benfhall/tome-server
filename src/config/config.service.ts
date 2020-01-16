@@ -15,7 +15,7 @@ export class ConfigService {
         JWT_SECRET: process.env.JWT_SECRET,
       };
     } else {
-      this.envConfig = dotenv.parse(fs.readFileSync('.env'));
+      this.envConfig = dotenv.parse(fs.readFileSync('app.yaml'));
     }
   }
 

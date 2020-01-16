@@ -8,7 +8,11 @@ async function bootstrap() {
     bodyParser: false,
   });
 
-  app.enableCors();
+  app.enableCors({
+    origin: true,
+    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS',
+    credentials: true,
+  });
 
   const rawBodyBuffer = (req, res, buf, encoding) => {
     if (buf && buf.length) {
@@ -20,9 +24,9 @@ async function bootstrap() {
   app.use(bodyParser.json({ verify: rawBodyBuffer }));
 
   const config = app.get(ConfigReader);
-  const port = config.getIntOrThrow('PORT');
 
-  await app.listen(port);
-  console.log('Listening on: ', port)
+  const PORT = Number(process.env.PORT) || 8080;
+  await app.listen(PORT);
+  console.log('Listening on: ', PORT)
 }
 bootstrap();

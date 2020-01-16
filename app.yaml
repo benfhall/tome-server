@@ -1,0 +1,4 @@
+runtime: nodejs10
+service: backend
+includes:
+  - env_variables.yaml

@@ -1,25 +1,27 @@
 {
-  "name": "api",
+  "name": "tome-api",
   "version": "0.0.1",
   "description": "",
   "author": "",
   "license": "MIT",
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "main": "dist/main.js",
   "scripts": {
-    "prebuild": "rimraf dist",
-    "build": "nest build",
-    "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
-    "start": "ts-node -r tsconfig-paths/register src/main.ts",
-    "start:dev": "nest start --watch",
-    "start:debug": "nest start --debug --watch",
-    "start:prod": "node dist/main",
+    "prepare": "npm run build",
+    "pretest": "npm run build",
+    "build": "tsc -p tsconfig.build.json",
+    "deploy": "gcloud app deploy",
     "lint": "tslint -p tsconfig.json -c tslint.json",
-    "test": "jest",
-    "test:watch": "jest --watch",
-    "test:cov": "jest --coverage",
-    "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
-    "test:e2e": "jest --config ./test/jest-e2e.json"
+    "start": "node ./dist/main.js",
+    "start:dev": "nodemon",
+    "start:debug": "nodemon --config nodemon-debug.json",
+    "test": "repo-tools test app -- dist/main.js",
+    "gcp-build": "npm run build"
   },
   "dependencies": {
+    "@google-cloud/storage": "^4.2.0",
     "@nestjs/common": "^6.7.2",
     "@nestjs/core": "^6.7.2",
     "@nestjs/jwt": "^6.1.1",
