@@ -1,7 +1,0 @@
-env_variables:
-  PORT: '8080'
-  MONGODB_URI: 'mongodb+srv://tome-db-user:TfceHP4h5cVsApNo@cluster0-2j6j8.gcp.mongodb.net/tomedb'
-  JWT_SECRET: 'tomedb'
-
-  
-  
