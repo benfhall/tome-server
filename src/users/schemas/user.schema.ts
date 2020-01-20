@@ -15,6 +15,9 @@ export const UserSchema = new mongoose.Schema({
         required: true,
         select: false
     },
+    pid: {
+        type: String,
+    },
     avatar: String,
     weight: String,
     weight_unit: String,

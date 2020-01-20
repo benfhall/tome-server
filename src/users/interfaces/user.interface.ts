@@ -14,4 +14,5 @@ export interface User extends Document {
     readonly zip: string,
     readonly state: string,
     readonly city: string,
+    readonly pid: string
 }
