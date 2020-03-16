@@ -16,7 +16,8 @@ export const UserSchema = new mongoose.Schema({
         select: false
     },
     pid: {
-        type: String,
+        type: mongoose.SchemaTypes.ObjectId,
+        ref: 'Provider'
     },
     avatar: String,
     weight: String,

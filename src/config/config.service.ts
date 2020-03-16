@@ -12,10 +12,11 @@ export class ConfigService {
     ) {
       this.envConfig = {
         MONGODB_URI: process.env.MONGODB_URI,
+        PORT: process.env.PORT,
         JWT_SECRET: process.env.JWT_SECRET,
       };
     } else {
-      this.envConfig = dotenv.parse(fs.readFileSync('app.yaml'));
+      this.envConfig = dotenv.parse(fs.readFileSync('.env'));
     }
   }
 

@@ -7,5 +7,8 @@ export const ProviderSchema = new mongoose.Schema({
     },
     address: {
         type: String
-    }
+    },
+    city: String,
+    state: String,
+    zip: String,
 });
